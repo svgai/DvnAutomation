@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForensicsObjects", "Dvn\ForensicsObjects.csproj", "{175F8191-0E91-49D4-B925-664AA9884BC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ForensicsObjects", "Dvn\ForensicsObjects.csproj", "{175F8191-0E91-49D4-B925-664AA9884BC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForensicsSource", "ForensicsSource\ForensicsSource.csproj", "{90FFA474-D1F2-47D6-BDD4-607C52D29BA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForensicsActions", "ForensicsActions\ForensicsActions.csproj", "{A7273EB0-679C-4EE8-9180-297F8BD1A73C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForensicsStorage", "ForensicsStorage\ForensicsStorage.csproj", "{C12C72B2-AC34-495A-9C80-5E40FC5F10BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{3CCF2361-ADCE-48B0-AF6D-90AF66A53E2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActivityFilter", "ActivityFilter\ActivityFilter.csproj", "{8EB1B70A-DA69-4500-94DA-6E56E0C976CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +25,28 @@ Global
 		{175F8191-0E91-49D4-B925-664AA9884BC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{175F8191-0E91-49D4-B925-664AA9884BC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{175F8191-0E91-49D4-B925-664AA9884BC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90FFA474-D1F2-47D6-BDD4-607C52D29BA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90FFA474-D1F2-47D6-BDD4-607C52D29BA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90FFA474-D1F2-47D6-BDD4-607C52D29BA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90FFA474-D1F2-47D6-BDD4-607C52D29BA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7273EB0-679C-4EE8-9180-297F8BD1A73C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7273EB0-679C-4EE8-9180-297F8BD1A73C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7273EB0-679C-4EE8-9180-297F8BD1A73C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7273EB0-679C-4EE8-9180-297F8BD1A73C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C12C72B2-AC34-495A-9C80-5E40FC5F10BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C12C72B2-AC34-495A-9C80-5E40FC5F10BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C12C72B2-AC34-495A-9C80-5E40FC5F10BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C12C72B2-AC34-495A-9C80-5E40FC5F10BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EB1B70A-DA69-4500-94DA-6E56E0C976CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EB1B70A-DA69-4500-94DA-6E56E0C976CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EB1B70A-DA69-4500-94DA-6E56E0C976CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EB1B70A-DA69-4500-94DA-6E56E0C976CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8EB1B70A-DA69-4500-94DA-6E56E0C976CE} = {3CCF2361-ADCE-48B0-AF6D-90AF66A53E2D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B7DD9D55-5C19-4E23-AFBF-FF0ED60E24FE}

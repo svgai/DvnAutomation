@@ -401,7 +401,7 @@ namespace ForensicsObjects
                     UserAccountControl = UserAccessControls.FromString(propertyValue);
                     break;
                 default:
-                    Properties ??= new Dictionary<string, string>();
+                    if (Properties == null) Properties = new Dictionary<string, string>();
                     Properties[propertyKey] = propertyValue;
                     break;
             }
