@@ -1,0 +1,31 @@
+﻿namespace ForensicsObjects
+{
+    public enum AccountType
+    {
+        Unknown,
+        Anonymous,
+        CreatorAuthority,
+        Dialup,
+        DomainAdmin,
+        DomainAccount,
+        Everyone,
+        EnterpriseDomainControllers,
+        GlobalSecurityGroup,
+        Local, 
+        LocalGroup,
+        LocalAdmin,
+        LocalAuthority,
+        OperatingSystem,
+        LocalSecurityGroup,
+        LocalService,
+        LocalSystem,
+        Nobody,
+        NonUniqueAuthority,
+        NullAuthority,
+        Network,
+        NtAuthority,
+        NetworkService,
+        VirtualAccount,
+        WorldAuthority
+    }
+}
